@@ -1,5 +1,5 @@
 USE_SHA1=YES
-ngx_addon_name=ngx_http_secure_download
+ngx_addon_name=ngx_http_secure_download_module
 HTTP_SECURE_DOWNLOAD_SRCS="$ngx_addon_dir/ngx_http_secure_download_module.c"
 HTTP_SECURE_DOWNLOAD_LIBS="-lmhash"
 if test -n "$ngx_module_link"; then
